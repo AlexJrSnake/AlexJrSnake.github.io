@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Reparación de lanchas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+</head>
+
+<body class="cuerpo">
+<div class="contenedor">
+
+    <header>
+            <div>
+                <h1>Factuaracion de la tienda de lanchas  </h1>
+            </div>
+    </header>
+
+        
+    <div class="formulario">
+
+            <label for="Cedula">Cedula:</label>
+            <select id="Cedula:">
+                <option>V-</option>
+                <option>E-</option>
+            </select>
+            <input id="numeroCd" type="number" size="10" />
+
+            <label for="Nombre">Nombre:</label>
+            <input id="Nombre" type="text" size="15" maxlength="30" name="nombre" />
+
+            <label for="apellido">Apellido:</label>
+            <input id="apellido" type="text" size="15" maxlength="30" name="apellido" />
+
+
+            <label for="Telefono">Telefono:</label>
+            <input id="Telefono" type="number" size="15" maxlength="10" />
+
+
+            <label for="mas">Produntos:</label>
+            <input id="mas" type="submit" value="+"  />
+            <input id="menos" type="submit" value="-" />
+
+    </div>     
+
+    
+    <div class="divTable">
+        <table class="table">
+            <tr>
+                <th>Codigo Del Producto</th>
+                <th>Concepto</th>
+                <th>Descripcion</th>
+                <th>Cantidad de Productos</th>
+                <th>Precio</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Motor</td>
+                <td>Motor para el barco Y2</td>
+                <td>1</td>
+                <td>200</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Aceite</td>
+                <td>Aceite barco</td>
+                <td>1</td>
+                <td>200</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Pintura</td>
+                <td>Pintura Blanca</td>
+                <td>2</td>
+                <td>50</td>
+            </tr>
+
+            <tr>
+                <td>10</td>
+                <td>Correa</td>
+                <td>Correa de Motor</td>
+                <td>1</td>
+                <td>120</td>
+            </tr>
+
+        </table>
+
+        <table class="total">
+                <td>
+                    <th>Total</th>
+                    <th>520</th>  
+                </td>
+        </table>
+    </div>
+    
+    <div class="botones">
+            <input id="mas" type="submit" value="Procesar Factura" />
+            <input id="menos" type="submit" value="Limpiar" />
+    </div>
+
+
+    <footer>
+            <small class="footer"> Alexander Betancourt - Tarea de Web </small>
+    </footer>
+</div>
+</body>
+</html>
